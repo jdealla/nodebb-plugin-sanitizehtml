@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-sanitizehtml",
+  "name": "@jdealla/nodebb-plugin-sanitizehtml",
   "version": "0.3.0",
   "description": "An HTML Sanitizer parser for NodeBB",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akhoury/nodebb-plugin-sanitizehtml"
+    "url": "git+https://github.com/jdealla/nodebb-plugin-sanitizehtml.git"
   },
   "keywords": [
     "nodebb",
@@ -16,13 +16,10 @@
     "sanitize",
     "html"
   ],
-  "author": {
-    "name": "Aziz khoury",
-    "email": "bentael@gmail.com"
-  },
+  "author": "Aziz khoury <bentael@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/akhoury/nodebb-plugin-sanitizehtml/issues"
+    "url": "https://github.com/jdealla/nodebb-plugin-sanitizehtml/issues"
   },
   "nbbpm": {
     "compatibility": "^1.7.5"
@@ -34,6 +31,5 @@
     "jquery": ">=2.1",
     "sanitize-html": "^1.17.0"
   },
-  "readmeFilename": "README.md",
   "homepage": "https://github.com/akhoury/nodebb-plugin-sanitizehtml"
 }

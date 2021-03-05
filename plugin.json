@@ -2,7 +2,7 @@
   "id": "nodebb-plugin-sanitizehtml",
   "name": "SanitizeHTML",
   "description": "An HTML Sanitizer parser for NodeBB",
-  "url": "https://github.com/akhoury/nodebb-plugin-sanitizehtml",
+  "url": "https://github.com/jdealla/nodebb-plugin-sanitizehtml",
   "library": "./index.js",
   "templates": "./public/templates",
   "staticDirs": {

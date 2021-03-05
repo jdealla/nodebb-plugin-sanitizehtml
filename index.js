@@ -6,7 +6,7 @@ var	sanitizeHtml = require('sanitize-html'),
 		extend = require('extend'),
 		$ = require('jquery'),
 		winston = module.parent.require('winston'),
-		meta = require.main.require('../meta'),
+		meta = module.parent.require('../meta'),
 		Plugin;
 
 pluginData.nbbId = pluginData.id.replace(/nodebb-plugin-/, '');
